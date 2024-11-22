@@ -1,0 +1,42 @@
+html, body {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.base {
+    background-color: gray;
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.base div{
+    flex: .5 1 0;
+    margin: 5%;
+
+}
+.base .screen {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    flex: 1.25 1 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.buttons button{
+    background: wheat;
+    border: none;
+    padding: 0;
+    flex: 1;
+    border-radius: 25px;
+    cursor: pointer;
+}
