@@ -16,16 +16,21 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5%;
+    border: 25px solid gray;
 }
 .base div{
     flex: .5 1 0;
-    margin: 5%;
 
 }
 .base .screen {
+    display: flex;
+    flex-direction: column;
     background-color: antiquewhite;
+    border: 10px solid antiquewhite;
     border-radius: 10px;
     flex: 1.25 1 0;
+    margin: 2%;
 }
 .buttons{
     display: flex;
@@ -39,4 +44,12 @@ html, body {
     flex: 1;
     border-radius: 25px;
     cursor: pointer;
+}
+.base .screen .top{
+    flex: 1;
+    font-size: 65px;
+}
+.base .screen .bottom{
+    flex: .5 1 0;
+    font-size: 30px;
 }
