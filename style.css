@@ -47,9 +47,9 @@ html, body {
 }
 .base .screen .top{
     flex: 1;
-    font-size: 65px;
+    font-size: 60px;
 }
 .base .screen .bottom{
     flex: .5 1 0;
-    font-size: 30px;
+    font-size: 25px;
 }
